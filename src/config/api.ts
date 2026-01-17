@@ -7,7 +7,7 @@ const getLocalApiUrl = () => {
   return 'http://192.168.1.41:3000/api';
 };
 
-export const API_BASE_URL = getLocalApiUrl();
+export const API_BASE_URL = 'https://fresh-backend-avtq.onrender.com/api';
 
 export const API_ENDPOINTS = {
   AUTH: {

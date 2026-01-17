@@ -8,7 +8,7 @@ const getSocketUrl = () => {
   return 'http://192.168.1.41:3000';
 };
 
-const SOCKET_URL = getSocketUrl();
+const SOCKET_URL = 'https://fresh-backend-avtq.onrender.com';
 
 class SocketService {
   private socket: Socket | null = null;
